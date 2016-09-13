@@ -1,0 +1,42 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Slabo 27px', serif;
+*/
+
+.tableDate{
+    width: 10%;
+}
+
+.tableUser{
+    width: 10%;
+    text-align: right;
+    border-right: 1px solid black;
+}
+
+.tableMessage{
+    width: 90%;
+    border-left:1px solid black;
+}
+
+#chatTable{
+    text-align: left;
+    width: 100%;
+    margin: 0.5%;
+    border: 1px solid black;
+}
+
+#chatBox {
+    overflow: auto;
+    border-style: solid;
+    
+    background-color: white;
+    color: black;
+    border-color: black;
+    
+    border-width: 3px;
+    padding: 0.5%;
+    margin: 2%;
+    height: 80%;
+    width: auto;
+}
